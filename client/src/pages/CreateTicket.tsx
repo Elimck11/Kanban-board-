@@ -41,7 +41,7 @@ const CreateTicket = () => {
       console.log(data);
       navigate('/');
     }
-  }
+  };
 
   const handleTextAreaChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
     const { name, value } = e.target;
